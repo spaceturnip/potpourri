@@ -13,7 +13,7 @@ import sys
 
 def diceRoll(sides):
     """ returns a number between 1 and sides. """
-    return random.randrange(1, sides)
+    return random.randint(1, sides)
 
 def printUsage(name):
     print(name, " - Simulated dice rolls.")

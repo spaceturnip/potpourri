@@ -18,7 +18,7 @@ except:
 
 guesses = 0
 
-theNumber = random.randrange(numrange)
+theNumber = random.randint(1,numrange)
 
 guessed = False
 while(not guessed):
